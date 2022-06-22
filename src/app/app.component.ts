@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'assignment2';
+  userName: string = "";
+
+
+  OnReset(){
+    this.userName = "";
+  }
 }
